@@ -5,12 +5,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <><Layout>
       <Component {...pageProps} />
-    </Layout><style jsx global>{`
+    </Layout> <style jsx global>{`
   html,
   body {
     padding: 0;
     margin: 0;
-    font-family: Gentium Book Basic;
+    font-family: Aladin;
   }
 
   * {

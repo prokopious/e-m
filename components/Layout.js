@@ -33,7 +33,7 @@ function Layout({ children }) {
               </svg>
               <span className="mx-1 text-sm">NY</span>
             </div>
-            <div className="h-90 w-full text-black md:text-center text-2xl font-semibold">
+            <div id="dram" className="h-200 w-full md:text-center text-2xl font-semibold">
               The 1-Dram Boutique
             </div>
             <div className="flex items-center justify-end w-full">
@@ -84,12 +84,12 @@ function Layout({ children }) {
               </Link>
               <Link href="/products">
                 <a className="mt-3 text-white hover:underline sm:mx-3 sm:mt-0">
-                  Shop
+                  Rose
                 </a>
               </Link>
               <Link href="/about">
                 <a className="mt-3 text-white hover:underline sm:mx-3 sm:mt-0">
-                  About
+                  Iris
                 </a>
               </Link>
             </div>
@@ -135,6 +135,18 @@ function Layout({ children }) {
           <p className="py-2 text-gray-500 sm:py-0">All rights reserved. Violators will be relentlessly prosecuted.</p>
         </div>
       </footer>
+      <style jsx global>{`
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: El Messiri;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+`}</style>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
@@ -11,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Gentium+Book+Basic&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

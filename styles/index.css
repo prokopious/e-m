@@ -1,8 +1,14 @@
 @tailwind base;
 
+html {
 
+font-family: Aladin;
+}
 
-
+div {font-family: Aladin;}
+p {font-family: Aladin;}
+h1 {font-family: Aladin;}
+#dram {font-size: 40px;}
 /* Write your own custom base styles here */
 
 /* Start purging... */

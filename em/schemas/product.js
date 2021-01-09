@@ -53,6 +53,11 @@ export default {
       to: {type: 'vendor'},
     },
     {
+      name: 'lurb',
+      title: 'lurb',
+      type: 'localeString',
+    },
+    {
       name: 'blurb',
       title: 'Blurb',
       type: 'localeString',
