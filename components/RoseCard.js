@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { urlFor } from "../utils/sanity";
 
-function ProductCard({ _id, title, blurb, mainImage, slug, defaultProductVariant }) {
+function RoseCard({ _id, title, mainImage, slug, defaultProductVariant }) {
   return (
-    
-    <Link id="card" href={`/products/${slug.current}`}>
+    <Link id="card" href={`/rose/${slug.current}`}>
       <a className="bg-gray-300 w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
         <div
           className="flex items-end justify-end h-56 w-full bg-cover"
@@ -41,4 +40,4 @@ function ProductCard({ _id, title, blurb, mainImage, slug, defaultProductVariant
   );
 }
 
-export default ProductCard;
+export default RoseCard;

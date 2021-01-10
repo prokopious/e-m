@@ -64,6 +64,7 @@ export default createSchema({
     internalLink,
     link,
     hero,
+  
     imageSection,
     textSection,
     portableText,

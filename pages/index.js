@@ -2,6 +2,7 @@ import Error from "next/error";
 import { useRouter } from "next/router";
 import { getClient, usePreviewSubscription } from "../utils/sanity";
 import ProductsPage from "../components/ProductsPage";
+import RosesPage from '../components/RosesPage';
 
 const query = `//groq
   *[_type == "product" && defined(slug.current)]

@@ -7,7 +7,7 @@ function Layout({ children }) {
   const handleMenu = () => setMenuOpen(!menuOpen);
   const handleOpen = () => setCartOpen(!cartOpen);
   return (
-    <div className="bg-blue-500">
+    <div id="h">
       <header>
         <div className="container mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
@@ -33,8 +33,8 @@ function Layout({ children }) {
               </svg>
               <span className="mx-1 text-sm">NY</span>
             </div>
-            <div id="dram" className="h-200 w-full md:text-center text-2xl font-semibold">
-              The 1-Dram Boutique
+            <div id="dram" className="h-200 w-full md:text-center text-2xl">
+              Perfumes of the Golden Horde
             </div>
             <div className="flex items-center justify-end w-full">
               <button
@@ -82,7 +82,7 @@ function Layout({ children }) {
                   Home
                 </a>
               </Link>
-              <Link href="/products">
+              <Link href="/rose">
                 <a className="mt-3 text-white hover:underline sm:mx-3 sm:mt-0">
                   Rose
                 </a>
@@ -123,8 +123,8 @@ function Layout({ children }) {
       // This Cart doesn't really work… yet!
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
       */}
-      <main className="my-8">{children}</main>
-      <footer className="min-h-20 bg-gray-200">
+      <main id="m" className="my-8">{children}</main>
+      <footer id="f" className="min-h-20 bg-gray-200">
         <div className="container h-40 mx-auto px-6 py-3 flex justify-between items-center">
           <a
             href="#"

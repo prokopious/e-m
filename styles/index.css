@@ -3,12 +3,19 @@
 html {
 
 font-family: Aladin;
+
 }
 
 div {font-family: Aladin;}
 p {font-family: Aladin;}
 h1 {font-family: Aladin;}
-#dram {font-size: 40px;}
+#dram {font-size: 40px;
+  color: #e90000
+}
+#h {
+  background-color: #3f6bd1;
+}
+
 /* Write your own custom base styles here */
 
 /* Start purging... */
