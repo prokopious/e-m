@@ -31,7 +31,7 @@ function Layout({ children }) {
                   fill="currentColor"
                 />
               </svg>
-              <span className="mx-1 text-sm">NY</span>
+              <span className="mx-1 text-sm"></span>
             </div>
             <div id="dram" className="h-200 w-full md:text-center text-2xl">
               Perfumes of the Golden Horde
